@@ -13,8 +13,9 @@ const LoginPage: React.FC = () => {
   return (
     <div className="login-container">
       <div className="login-card">
-        <h1>Secure E-commerce</h1>
-        <p>Welcome to our secure shopping platform</p>
+        <img src="/logo.png" alt="SafeCart Logo" className="login-logo" />
+        <h1>SafeCart</h1>
+        <p>Bringing you the joy of shopping with the security you deserve</p>
         <button 
           onClick={() => loginWithRedirect()}
           className="login-btn"
